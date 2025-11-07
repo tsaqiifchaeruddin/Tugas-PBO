@@ -14,7 +14,7 @@ public class TokoRoti {
         double diskon = 0, totalBayar;
         
         System.out.println("=== Toko Roti Be'i ===");
-        System.out.println("Selamat datang di Toko Roti Be'i. Silahkan lihat menu kamui semoga senang berbelanja!");
+        System.out.println("Selamat datang di Toko Roti Be'i. Silahkan lihat menu kami semoga senang berbelanja!");
         do {System.out.println("Menu: \n|Kode| |Nama: Harga|");
             System.out.println(" [1]     Roti Coklat : " + df.format(harga[0]));
             System.out.println(" [2]     Roti Keju   : " + df.format(harga[1]));
@@ -66,3 +66,4 @@ public class TokoRoti {
     }
 
 }
+
