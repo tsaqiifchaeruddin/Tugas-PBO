@@ -19,11 +19,12 @@ public class TokoRoti {
         
         System.out.println("=== Toko Roti Be'i ===");
         System.out.println("Selamat datang di Toko Roti Be'i. Silahkan lihat menu kamui semoga senang berbelanja!");
-        do {System.out.println("Menu: \n|Kode| |Nama: Harga|");
+        do {System.out.println("Menu: \n================================== \n|Kode| |Nama: Harga|");
             System.out.println(" [1]     Roti Coklat : " + df.format(harga[0]));
             System.out.println(" [2]     Roti Keju   : " + df.format(harga[1]));
             System.out.println(" [3]     Roti Piscok : " + df.format(harga[2]));
             System.out.println(" [4]     Roti Daging : " + df.format(harga[3]));
+            System.out.println("==================================");
             System.out.print("Masukkan kode roti: ");
             kode = input.nextInt();
             System.out.print("Masukkan jumlah roti: ");
